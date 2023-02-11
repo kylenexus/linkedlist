@@ -14,7 +14,7 @@ public class MainDriver {
         System.out.println("After deleting first...");
         ll.display();
         
-        ll.addLast(67);
+        ll.addLast(20);
         System.out.println("Adding last...");
         ll.display();
         
