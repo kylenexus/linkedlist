@@ -1,3 +1,5 @@
+//thea tenebro
+
 public class Linkedlist {
 
     private Node head;
