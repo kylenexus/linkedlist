@@ -5,21 +5,24 @@ public class MainDriver {
     public static void main(String[] args)
     {
         Linkedlist ll = new Linkedlist();
+        System.out.println("add first...");
         ll.addFirst(22);
         ll.addFirst(50);
         ll.addFirst(20);
         ll.display();
         
+        System.out.println("add last...");
         ll.deleteFirst();
-        System.out.println("After deleting first...");
+        ll.addLast(20);
         ll.display();
-        
-        ll.addLast(67);
-        System.out.println("Adding last...");
+
+        System.out.println("delete first...");
+        ll.deleteFirst();
         ll.display();
-        
+
+        System.out.println("delete last...");
+        ll.addFirst(50);
         ll.deleteLast();
-        System.out.println("Deleting last...");
         ll.display();
         
         System.out.println("if 50 exists:" + ll.exist(50));
